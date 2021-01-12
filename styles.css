@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 28px;
+  padding-top: 14px;
+}
+
+header > nav {
+  display: flex;
+  align-items: center;
+}
+
+header > nav > a {
+  color: hsl(0, 0%, 15%);
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+header > nav > a:hover {
+  text-decoration: underline;
+}
+
+header > nav > button {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  padding: 0;
+}
+
+header > nav > button.menu {
+  margin-right: 15px;
+  padding: 5px;
+}
+
+header > nav > button.menu > img {
+  height: 16px;
+  opacity: 50%;
+}
+
+header > nav > button.menu:hover > img {
+  opacity: 85%;
+}
+
+header > nav > button.avatar > img {
+  height: 32px;
+  border-radius: 50%;
+}
