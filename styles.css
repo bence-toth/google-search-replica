@@ -59,6 +59,55 @@ header.site-header > nav > button.avatar > img {
   height: 32px;
   border-radius: 50%;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main > img {
+  width: 272px;
+  margin-bottom: 20px;
+}
+
+main > .search-buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+main > nav > .search.button {
+  margin-left: 10px;
+  border: none;
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  border-radius: 2px;
+}
+
+main > nav > .search.button:hover {
+  box-shadow: 0 0 0 1px #d2d2d2;
+}
+
+main > nav > .search.button:active {
+  box-shadow: 0 0 0 1px #4285f4;
+}
+
+main > nav > .search.button:focus {
+  outline: none;
+}
+
+main > nav > .search.button:first-child {
+  margin-left: 0;
+}
+
+main > .languages {
+  font-size: 12px;
+  display: flex;
+}
+main > .languages > a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
 footer > header,
 footer > nav {
   background-color: #f2f2f2;
@@ -94,6 +143,6 @@ footer > nav > ul > li:last-child {
   padding-right: 0;
 }
 footer > nav > ul > li > a {
-  color: inh;
+  color: inherit;
   text-decoration: none;
 }
