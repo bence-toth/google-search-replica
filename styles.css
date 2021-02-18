@@ -70,6 +70,27 @@ main > img {
   margin-bottom: 20px;
 }
 
+main > .search-field {
+  border: 1px solid red;
+  position: relative;
+}
+
+main > .search-field > .magnifier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid blue;
+  height: 20px;
+}
+
+main > .search-field > .microphone {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid green;
+  height: 20px;
+}
+
 main > .search-buttons {
   margin-top: 20px;
   margin-bottom: 20px;
